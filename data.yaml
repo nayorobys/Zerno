@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['wheat_grain']
+
+roboflow:
+  workspace: rays-workspace-0iw7d
+  project: zerno-w8ahr
+  version: dataset
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rays-workspace-0iw7d/zerno-w8ahr/dataset/dataset
