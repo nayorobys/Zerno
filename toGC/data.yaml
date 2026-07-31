@@ -1,0 +1,9 @@
+path: /content/toGC/final_dataset
+train: images/train
+val: images/valid
+
+nc: 3
+names:
+  0: wheat
+  1: rye
+  2: barley

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['rye_grain']
+
+roboflow:
+  workspace: rays-workspace-0iw7d
+  project: rye-grain
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rays-workspace-0iw7d/rye-grain/dataset/3
