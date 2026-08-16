@@ -1,9 +1,13 @@
-path: /content/toGC/final_dataset
-train: images/train
-val: images/valid
+train: ../train/images
+val: ../valid/images
+test: ../test/images
 
 nc: 3
-names:
-  0: wheat
-  1: rye
-  2: barley
+names: ['wheat', 'rye', 'barley']
+
+roboflow:
+  workspace: rays-workspace-0iw7d
+  project: bwr-barley-wheat-rye-_dataset
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rays-workspace-0iw7d/bwr-barley-wheat-rye-_dataset/dataset/2

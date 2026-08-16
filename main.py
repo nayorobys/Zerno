@@ -1,1 +1,0 @@
-# model training has moved to Google Colab(https://colab.research.google.com/drive/1T6qnBTtz_v8yfjis_J8f_GpmicBTXNqK?usp=sharing)
